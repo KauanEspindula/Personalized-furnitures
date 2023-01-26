@@ -1,0 +1,66 @@
+body {
+  text-align: center;
+  margin: 0px;
+}
+
+#hero {
+  /*Largura*/
+  width: 592px;
+  /*Definindo para ajustar o margin automaticamente. 
+  A sequencia seguinte de comandos aqui funcionado como um relogio: 
+  cima, direitra, baixo e esquerda*/
+  margin: 0 auto 72px;
+}
+
+#hero img {
+  margin-bottom: 72px;
+}
+
+h1 {
+  font-family: "Inter";
+  font-weight: normal;
+
+  font-size: 49px;
+  line-height: 56px;
+}
+
+/*Aqui estou modificando o peso da fonte, somente o span dentro do h1*/
+h1 span {
+  font-weight: bold;
+}
+
+p,
+#footer {
+  color: #7d7987;
+  /*Tamanho da fonte*/
+  font-size: 14px;
+  /*'altura' da linha*/
+  line-height: 28px;
+}
+
+/*Aqui eu estou modificando a cor de todos os span E a cor do hypertextis também*/
+span,
+a {
+  color: #ff9900;
+}
+
+#line {
+  width: 568px;
+  height: 0px;
+  margin: 0 auto 8px;
+  border: 1px solid #eceff2;
+}
+
+/*     "a" + a = pegue o HT que tenha um HT anterior a ele o, ou seja este "a"*/
+#footer a + a {
+  margin-left: 28px;
+}
+
+#balls {
+  /*Define como vai ser a posição, essa fixed é como se fixasse alguma coisa na tela*/
+  position: fixed;
+  /*Primeira posição de baixo para cima*/
+  bottom: 0px;
+  /*Primeira posição da direita para direita*/
+  right: 0px;
+}
