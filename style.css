@@ -1,6 +1,7 @@
 body {
   text-align: center;
   margin: 0px;
+  font-family: "Open Sans", sans-serif;
 }
 
 #hero {
@@ -17,7 +18,7 @@ body {
 }
 
 h1 {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-weight: normal;
 
   font-size: 49px;
