@@ -1,7 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   text-align: center;
-  margin: 0px;
   font-family: "Open Sans", sans-serif;
+  height: 100vh;
 }
 
 #hero {
@@ -23,12 +29,16 @@ h1 {
   font-size: 49px;
   line-height: 56px;
 
-  margin-bottom: 32px;
+  margin: 0 auto 32px;
 }
 
 /*Aqui estou modificando o peso da fonte, somente o span dentro do h1*/
 h1 span {
   font-weight: bold;
+}
+
+p {
+  margin-bottom: 72px;
 }
 
 p,
